@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.shortener.Service.ShortenUrlRestControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-03T06:17:18" hostname="DESKTOP-93K8VVM" time="0.427">
+  <properties/>
+  <testcase name="원래의 URL로 리다이렉트 되어야함" classname="com.example.shortener.Service.ShortenUrlRestControllerTest" time="0.427"/>
+  <system-out><![CDATA[15:17:13.317 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.shortener.Service.ShortenUrlRestControllerTest]: ShortenUrlRestControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:17:13.633 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.shortener.ShortenerApplication for test class com.example.shortener.Service.ShortenUrlRestControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-03T15:17:14.480+09:00  INFO 1496 --- [shortener] [    Test worker] c.e.s.S.ShortenUrlRestControllerTest     : Starting ShortenUrlRestControllerTest using Java 17.0.8 with PID 1496 (started by comet in C:\lee\Java\Spring\shortener)
+2024-05-03T15:17:14.482+09:00  INFO 1496 --- [shortener] [    Test worker] c.e.s.S.ShortenUrlRestControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2024-05-03T15:17:18.515+09:00  INFO 1496 --- [shortener] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-05-03T15:17:18.516+09:00  INFO 1496 --- [shortener] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-03T15:17:18.522+09:00  INFO 1496 --- [shortener] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-05-03T15:17:18.595+09:00  INFO 1496 --- [shortener] [    Test worker] c.e.s.S.ShortenUrlRestControllerTest     : Started ShortenUrlRestControllerTest in 4.796 seconds (process running for 7.41)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
